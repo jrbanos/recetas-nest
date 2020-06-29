@@ -50,3 +50,4 @@ exports.RecetaSchema = new mongoose.Schema({
     },
     elementos: [elementoSchema]
 });
+//# sourceMappingURL=receta.schema.js.map

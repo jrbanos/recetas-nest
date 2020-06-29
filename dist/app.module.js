@@ -16,9 +16,10 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     common_1.Module({
         imports: [receta_module_1.RecetaModule,
-            mongoose_1.MongooseModule.forRoot('mongodb://ibai.site:27020/recetasV3')],
+            mongoose_1.MongooseModule.forRoot('mongodb://jbatalaya.site:27020/recetasV3')],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })
 ], AppModule);
 exports.AppModule = AppModule;
+//# sourceMappingURL=app.module.js.map
